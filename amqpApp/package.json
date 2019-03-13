@@ -1,0 +1,19 @@
+{
+  "name": "amqpApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "consumer.js",
+  "scripts": {
+    "start": "if \"NODE_DEV\" == 'production' (node consumer.js) else (nodemon consumer.js)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": "^0.2.7",
+    "amqplib": "^0.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
